@@ -1,0 +1,79 @@
+body, header, h1, h2, p, section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #f0fbff;
+    font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+    color: #1f2a33;
+}
+
+header {
+    background-color: #0e748b;
+    color: #ffffff;
+    text-align: center;
+    padding: 28px;
+}
+
+section {
+    max-width: 860px;
+    margin: 28px auto;
+    padding: 24px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+}
+
+h1, h2 {
+    color: #1f2a33;
+}
+
+p {
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+
+h3 {
+    margin-top: 18px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+ul {
+    list-style: square;
+    margin-left: 24px;
+    margin-bottom: 16px;
+    line-height: 26px;
+    font-size: 16px;
+}
+
+.photo-card {
+    margin: 16px 0 22px 0;
+    text-align: center;
+}
+
+.photo {
+    width: 100%;
+    max-height: 360px;
+    object-fit: cover;
+    border-radius: 14px;
+    box-shadow: 0 10px 22px rgba(14, 116, 139, 0.18);
+}
+
+.citation {
+    font-size: 12px;
+    color: #415a66;
+    margin-top: 8px;
+}
+
+.tiny {
+    max-width: 860px;
+    margin: 0 auto 28px auto;
+    padding: 0 24px;
+    font-size: 12px;
+    color: #5a6b74;
+    text-align: center;
+}
